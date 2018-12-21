@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="6.700003%" android:horizontalGap="0%" android:keyHeight="5%" xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row>
+		<Key android:codes="0x1b" android:isRepeatable="true" android:keyLabel="ex" />
+		<Key android:codes="0x60" android:isRepeatable="true" android:keyLabel="`" />
+		<Key android:codes="0x30" android:isRepeatable="true" android:keyLabel="0" />
+		<Key android:codes="0x31" android:isRepeatable="true" android:keyLabel="1" />
+		<Key android:codes="0x32" android:isRepeatable="true" android:keyLabel="2" />
+		<Key android:codes="0x33" android:isRepeatable="true" android:keyLabel="3" />
+		<Key android:codes="0x34" android:isRepeatable="true" android:keyLabel="4" />
+		<Key android:codes="0x35" android:isRepeatable="true" android:keyLabel="5" />
+		<Key android:codes="0x36" android:isRepeatable="true" android:keyLabel="6" />
+		<Key android:codes="0x37" android:isRepeatable="true" android:keyLabel="7" />
+		<Key android:codes="0x38" android:isRepeatable="true" android:keyLabel="8" />
+		<Key android:codes="0x39" android:isRepeatable="true" android:keyLabel="9" />
+		<Key android:codes="0x2d" android:isRepeatable="true" android:keyLabel="-" />
+		<Key android:codes="0x3d" android:isRepeatable="true" android:keyLabel="=" />
+		<Key android:codes="0x08" android:isRepeatable="true" android:keyLabel="bs" />
+	</Row>
+    <Row>
+        <Key android:keyWidth="13.399994%" android:codes="0x09" android:isRepeatable="true" android:keyLabel="tab" />
+        <Key android:codes="0x1107" android:isRepeatable="true" android:keyLabel="ㅂ" />
+        <Key android:codes="0x110c" android:isRepeatable="true" android:keyLabel="ㅈ" />
+        <Key android:codes="0x1103" android:isRepeatable="true" android:keyLabel="ㄷ" />
+        <Key android:codes="0x1100" android:isRepeatable="true" android:keyLabel="ㄱ" />
+        <Key android:codes="0x1109" android:isRepeatable="true" android:keyLabel="ㅅ" />
+        <Key android:codes="0x116d" android:isRepeatable="true" android:keyLabel="ㅛ" />
+        <Key android:codes="0x1167" android:isRepeatable="true" android:keyLabel="ㅕ" />
+        <Key android:codes="0x1163" android:isRepeatable="true" android:keyLabel="ㅑ" />
+        <Key android:codes="0x1162" android:isRepeatable="true" android:keyLabel="ㅐ" />
+        <Key android:codes="0x1166" android:isRepeatable="true" android:keyLabel="ㅔ" />
+        <Key android:codes="0x5b" android:isRepeatable="true" android:keyLabel="[" />
+        <Key android:codes="0x5d" android:isRepeatable="true" android:keyLabel="]" />
+        <Key android:codes="0x5c" android:isRepeatable="true" android:keyLabel="\\" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="13.399994%" android:codes="0x80" android:keyLabel="caps" />
+        <Key android:codes="0x1106" android:isRepeatable="true" android:keyLabel="ㅁ" />
+        <Key android:codes="0x1102" android:isRepeatable="true" android:keyLabel="ㄴ" />
+        <Key android:codes="0x110b" android:isRepeatable="true" android:keyLabel="ㅇ" />
+        <Key android:codes="0x1105" android:isRepeatable="true" android:keyLabel="ㄹ" />
+        <Key android:codes="0x1112" android:isRepeatable="true" android:keyLabel="ㅎ" />
+        <Key android:codes="0x1169" android:isRepeatable="true" android:keyLabel="ㅗ" />
+        <Key android:codes="0x1165" android:isRepeatable="true" android:keyLabel="ㅓ" />
+        <Key android:codes="0x1161" android:isRepeatable="true" android:keyLabel="ㅏ" />
+        <Key android:codes="0x1175" android:isRepeatable="true" android:keyLabel="ㅣ" />
+        <Key android:codes="0x3b" android:isRepeatable="true" android:keyLabel=";" />
+        <Key android:codes="0x27" android:isRepeatable="true" android:keyLabel="'" />
+        <Key android:keyWidth="13.399994%" android:codes="0x10" android:isRepeatable="true" android:keyLabel="enter" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="13.399994%" android:codes="0x81" android:keyLabel="shift" />
+        <Key android:codes="0x110f" android:isRepeatable="true" android:keyLabel="ㅋ" />
+        <Key android:codes="0x1110" android:isRepeatable="true" android:keyLabel="ㅌ" />
+        <Key android:codes="0x110e" android:isRepeatable="true" android:keyLabel="ㅊ" />
+        <Key android:codes="0x1111" android:isRepeatable="true" android:keyLabel="ㅍ" />
+        <Key android:codes="0x1172" android:isRepeatable="true" android:keyLabel="ㅠ" />
+        <Key android:codes="0x116e" android:isRepeatable="true" android:keyLabel="ㅜ" />
+        <Key android:codes="0x1173" android:isRepeatable="true" android:keyLabel="ㅡ" />
+        <Key android:codes="0x2c" android:isRepeatable="true" android:keyLabel="," />
+        <Key android:codes="0x2e" android:isRepeatable="true" android:keyLabel="." />
+        <Key android:codes="0x2f" android:isRepeatable="true" android:keyLabel="/" />
+        <Key android:horizontalGap="6.700003%" android:codes="0x86" android:isRepeatable="true" android:keyLabel="↑" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="13.399994%" android:codes="0x82" android:keyLabel="ctrl" />
+        <Key android:keyWidth="13.399994%" android:codes="0x83" android:keyLabel="alt" />
+        <Key android:keyWidth="13.399994%" android:codes="0x84" android:keyLabel="lang" />
+        <Key android:keyWidth="13.399994%" android:codes="0x20" android:isRepeatable="true" android:keyLabel="space" />
+        <Key android:horizontalGap="26.800001%" android:codes="0x85" android:isRepeatable="true" android:keyLabel="←" />
+        <Key android:codes="0x88" android:isRepeatable="true" android:keyLabel="↓" />
+        <Key android:codes="0x87" android:isRepeatable="true" android:keyLabel="→" />
+    </Row>
+</Keyboard>

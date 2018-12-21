@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="whitestone8214.creole" android:versionName="11" android:label="Creole">
+	<uses-sdk android:minSdkVersion="23" android:targetSdkVersion="28" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.SET_WALLPAPER" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-feature android:name="android.hardware.camera" />
+	<uses-feature android:name="android.hardware.camera.autofocus" />
+
+	<application android:label="Creole">
+		<service android:label="Creole" android:name="CreoleSatelite" android:permission="android.permission.BIND_INPUT_METHOD">
+            <intent-filter>
+                <action android:name="android.view.InputMethod"/>
+            </intent-filter>
+            <meta-data android:name="android.view.im" android:resource="@xml/connector"/>
+        </service>
+		<activity android:name="Creole"  android:label="Creole">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name="CameraRoom"  android:label="Camera">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+			</intent-filter>
+		</activity>
+		<activity android:name="VideoRoom"  android:label="Video">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+			</intent-filter>
+		</activity>
+		<receiver android:label="@string/label_korean" android:name=".InputDeviceReceiver">
+            <intent-filter>
+                <action android:name="android.hardware.input.action.QUERY_KEYBOARD_LAYOUTS"/>
+            </intent-filter>
+            <meta-data android:name="android.hardware.input.metadata.KEYBOARD_LAYOUTS" android:resource="@xml/keypad_default"/>
+        </receiver>
+	</application>
+</manifest>
+ 

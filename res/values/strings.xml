@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--<string name="app_label">...</string>
+	<string name="keyboard_layouts_label">Korean keyboard</string>-->
+	<string name="label_korean">Korean (alpha)</string>
+</resources>
